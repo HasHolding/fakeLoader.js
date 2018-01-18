@@ -17,7 +17,7 @@ fakeLoader.js is a lightweight jQuery plugin that helps you create an animated s
 <h1>3. Include Folowing Libraries</h1>
 <p>JQuery reference and the fakeLoader.js</p>
 <pre>
-<p>&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"&gt;</p><p>&lt;script src="yourPath/fakeLoader.min.js"&gt;</p>
+<p>&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"&gt;</p><p>&lt;script src="yourPath/fakeLoader.min.js"&gt;</p>
 </pre>
 
 <h1>4. Basic Initialize</h1>
@@ -34,15 +34,13 @@ fakeLoader.js is a lightweight jQuery plugin that helps you create an animated s
 <pre>
 <code><p>&lt;script type="text/javascript"&gt;</p>
     $("#fakeLoader").fakeLoader({
-    
             timeToHide:1200, //Time in milliseconds for fakeLoader disappear
             zIndex:999, // Default zIndex
             spinner:"spinner1",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7' 
             bgColor:"#2ecc71", //Hex, RGB or RGBA colors
             imagePath:"yourPath/customizedImage.gif" //If you want can you insert your custom image
-            
     });
-     &lt;/script&gt;
+     <p>&lt;/script&gt;
 </code>
 </pre>
 
