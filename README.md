@@ -19,7 +19,7 @@ fakeLoader.js is a lightweight jQuery plugin that helps you create an animated s
 <pre>
 <p>&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"&gt;</p><p>&lt;script src="yourPath/fakeLoader.min.js"&gt;</p>
 </pre>
-<p>Important! Use full jQuery instead of slim version.</p>
+<p><b>Important!</b> Use full jQuery instead of slim version.</p>
 
 <h1>4. Basic Initialize</h1>
 <p>Include in bottom of your  &lt;body&gt; tag</p>
